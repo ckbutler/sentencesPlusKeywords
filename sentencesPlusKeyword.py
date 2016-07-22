@@ -50,7 +50,8 @@ if outType.lower()!="sen" and outType.lower()!="csv":
 # sentences using the nltk module:
 with open(fileName, 'r') as myfile:
     text=myfile.read().replace('\n', ' ')
-decoded_str=text.decode('utf8')
+newstr = re.sub(r'(.)\.([A-Z])', r'\1. \2', text)
+decoded_str=newstr.decode('utf8')
 encoded_str=decoded_str.encode('ascii','ignore')
 sents = nltk.sent_tokenize(encoded_str)
 if VERBOSE:
@@ -136,3 +137,4 @@ exit()
 # 06-29-2016 CK Butler   Added option of printing to formatted CSV
 #                        and VERBOSE output for debugging
 # 06-30-2016 CK Butler   Modified CSV formatting
+# 07-22-2016 CK Butler   Fixed 'mushed.Sentences'
