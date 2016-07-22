@@ -1,0 +1,52 @@
+abort
+abortion
+abuse.*sex
+anal
+anally
+anus
+assault.*sex
+breast
+crime.*sex
+criminal.*sex
+exploit.*sex
+gang-rap
+gangrap
+genital
+humiliat
+impregnate
+molest.*sex
+mutilat
+naked
+nipple
+nude
+nudity
+penis
+pregnanc
+pregnant
+prostitut
+rape
+raping
+rapist
+rectal
+rectum
+sex.*abuse
+sex.*assault
+sex.*crime
+sex.*criminal
+sex.*exploit
+sex.*molest
+sex.*slave
+sex.*viol
+sex act
+sex work
+sexual act
+sexual work
+slave.*sex
+sodom
+sterilization
+stripped
+stripping
+testicle
+testicular
+vagina
+viol.*sex
